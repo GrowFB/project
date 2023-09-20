@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a, a:link , a:visited{
+  text-decoration: none;
+  color:inherit; /*부모 요소의 색상을 상속*/
+  
+}
+
+li{
+  list-style: none;
+}
