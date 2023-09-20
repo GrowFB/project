@@ -1,0 +1,43 @@
+section{
+  background-color: #f8f8f8;
+}
+/* 부모영역이 자식영역을 온전히 인식하지 못할때 float요소 같은 이유로
+이럴때는 float의 영향력을 초기화 해줘야함 */
+
+section .do-me{
+  display: flex;
+  justify-content: space-between;
+}
+
+section .do-me .do-inner{
+  width: 30%;
+  background-color: #fff;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+section .do-me .do-inner:last-child{
+  margin-right: 0;
+}
+
+section .do-me .do-inner .icon i{
+  font-size: 2.5rem;
+  color: #ff6a6a;
+}
+section .do-me .do-inner .content h3{
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+section .do-me .do-inner .content p{
+  font-size: 1.15rem;
+}
+
+section .do-me .do-inner:hover{
+  background-color: lightcoral;
+  color: white;
+}
+
+section .do-me .do-inner:hover .icon i{
+  color: white;
+}
