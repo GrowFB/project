@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zxx"> 
+  <!-- zxx는 주력 언어서 설정되지 않을때 씀 -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>contact with me</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../css/contact.css">
+</head>
+
+
+<body>
+  <!-- contact  -->
+  <section id="contact">
+    <div class="container">
+      <div class="title">
+        <h4>CONTACT</h4>
+        <h2>Contact With Me</h2>
+      </div>
+       <div class="contact-me">
+        <div class="left">
+          <div class="card">
+            <div class="icon">
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <div class="info-text">
+              <h3>phone</h3>
+              <p>010-0000-0000</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <i class="fa-solid fa-envelope" style="color: #454e5f;"></i>
+            </div>
+            <div class="info-text">
+              <h3>email</h3>
+              <p>sybt1017@naver.com</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <i class="fa-solid fa-address-card" style="color: #283957;"></i>
+            </div>
+            <div class="info-text">
+              <h3>address</h3>
+              <p>Seoul Mapogu</p>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+            <form action="#">
+              <div class="form-group">
+                <label for="name">name</label>
+                <input type="text" id="name">
+                <!-- 라벨과 입력 요소는 항상 같이사용 -->
+              </div>
+              <div class="form-group">
+                <label for="email">email</label>
+                <input type="text" id="email" autocomplete="off">
+                <!-- autocomplete 오프 하면 이전의 데이터가 보이지 않음 -->
+                <!-- 라벨과 입력 요소는 항상 같이사용 -->
+              </div>
+              <div class="form-group">
+                <label for="msg">mesage</label>
+                <textarea id="msg"></textarea>
+              </div>
+              <button>send</button>
+            </form>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
